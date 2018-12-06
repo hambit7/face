@@ -1,0 +1,6 @@
+sudo apt-get install build-essential
+https://www.npmjs.com/package/face-recognition
+
+sudo npm install -g npm@5.7.1
+
+npm start

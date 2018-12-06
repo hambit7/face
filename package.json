@@ -1,0 +1,28 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "tes",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon server.js"
+  },
+  "author": "TH",
+  "license": "MIT",
+  "repository": "",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "face-recognition": "^0.9.4",
+    "md5": "^2.2.1",
+    "mongoose": "^5.3.13",
+    "node-webcam": "^0.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.6"
+  },
+  "nodemonConfig": {
+    "ext": "js ejs",
+    "legacyWatch": true
+  }
+}
